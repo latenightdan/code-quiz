@@ -1,6 +1,7 @@
 //steps
-const answerEl = document.getElementById("answer");
+// const answerEl = document.getElementById("answer");
 const startEl = document.getElementById("start");
+
 
 questionHolder = [{
     question: "eorgiohegr",
@@ -20,7 +21,7 @@ questionHolder = [{
 var correctAnswers=0;
 
 
-answerEl.addEventListener("click", checkCorrect);
+// answerEl.addEventListener("click", checkCorrect);
 startEl.addEventListener("click", startGame);
 
 function checkCorrect(){
@@ -28,13 +29,12 @@ function checkCorrect(){
 
 function startGame(event){
     event.preventDefault();
-const answerr = document.createElement("button");
-
-// answerr.className = "answer";
-const answerHolderEl = document.getElementById("answerss");
-answerHolderEl.appendChild(answerr);
-
-
-
+q = document.getElementById("theQU");
+q.textContent = "phuc";
+const butt = document.getElementById("uggh");
+const gunk = document.createElement("button");
+gunk.textContent = "punk";
+butt.appendChild(gunk);
+// answerr.setAttribute()
 
 }
