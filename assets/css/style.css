@@ -62,3 +62,8 @@ background-color: var(--wrong-color);
  .hide {
      display: none;
  }
+ .btn-primary{
+
+    background-color: #0000ff;
+    color:#fff;
+ }
